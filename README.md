@@ -68,24 +68,24 @@ Kerjakan soal-soal berikut:
 ## III. Data Visualization Test (60)
 Pada ujian Data Visualization, Anda akan menggunakan dataset Collision-Dataset. Dataset ini me-*record* data kecelakaan yang terjadi di Kota Seattle, Amerika Serikat. Silahkan download dataset ini di chat. Dan Anda dapat membaca penjelasan tiap kolom bisa Anda baca [di sini](https://github.com/ridhoaryo/UjianSusulan_DataViz_JCDS02_BKS/blob/master/columns_information.ipynb). Masih dalam Jupyter Notebook Anda, kerjakan soal-soal berikut.
 
-1. Menurut dataset collision, berapa perbandingan ratio kecelakaan antara kategori Injury Collision dengan Property Damage Collision? (Jawab pertanyaan ini menggunakan plot yang sesuai dan jelaskan ratio perbandingannya dalam markdown!)
+1. **(poin 5)** Menurut dataset collision, berapa perbandingan rasio kecelakaan antara kategori Injury Collision dengan Property Damage Collision? (Jawab pertanyaan ini menggunakan plot yang sesuai dan jelaskan ratio perbandingannya dalam markdown!)
 
-2. Menggunakan kolom `PERSONCOUNT`,  `PEDCOUNT`, `PEDCYLCOUNT`, `VEHCOUNT`. Hitunglah dan tampilkan dari tiap kolom tersebut hasil dari:
+2. **(poin 10)** Menggunakan kolom `PERSONCOUNT`,  `PEDCOUNT`, `PEDCYLCOUNT`, `VEHCOUNT`. Hitunglah dan tampilkan dari tiap kolom tersebut hasil dari:
     - Data Central Tendency (Mean, Median dan Mode)
-    - Data Dispersion (Persebaran data atau Standard Deviasi)
+    - Data Dispersion (Persebaran data atau Standard Deviation)
     - IQR, Upper bound dan Lower Bound
     - Skewness Test
 
-3. Menggunakan jawaban dari pertanyaan nomor 2, selesaikan persoalan berikut:
+3. **(poin 10)** Menggunakan jawaban dari pertanyaan nomor 2, selesaikan persoalan berikut:
     
     - Buatlah sebuah boxplot untuk setiap kolom `PERSONCOUNT`,  `PEDCOUNT`, `PEDCYLCOUNT`, `VEHCOUNT`. Dalam tiap boxplot tampilkan garis untuk median **(biru)**, Upper bound **(jingga)** dan Lower bound **(hijau)** dari setiap kolom tersebut. Dan tampilkan dalam `dataframe` data-data yang termasuk dalam outliers?
     - Berdasarkan Skewness Test dari setiap kolom yang sudah Anda lakukan, jelaskan kolom mana yang termasuk skew, dan kolom mana yang tidak termasuk skew?
 
-4. Menggunakan kolom `INCDATE` buatlah 2 (dua) kolom baru yang tiap kolom hanya menyimpan value **tahun** dan kolom lainnya menyimpan value **jam**. Dan tampilkan dalam sebuah `piechart` kecelakaan apa yang sering terjadi pada pukul 00:00 dini hari!
+4. **(poin 10)** Menggunakan kolom `INCDATE` buatlah 2 (dua) kolom baru yang tiap kolom hanya menyimpan value **tahun** dan kolom lainnya menyimpan value **jam**. Dan tampilkan dalam sebuah `piechart` kecelakaan apa yang sering terjadi pada pukul 00:00 dini hari!
 
-5. Saya memiliki asumsi bahwa, dari data tahun ke tahun, rasio kecelakaan yang terjadi akibat pengendara yang terpengaruh alkohol lebih sering terjadi pada pukul 20:00 malam. Apakah Anda setuju dengan asumsi saya? Jika iya, jelaskan alasannya. Jika tidak, jelaskan alasannya. Anda perlu menggunakan `stackplot` untuk menjawab pertanyaan ini.
+5. **(poin 15)** Saya memiliki asumsi bahwa, dari data tahun ke tahun, rasio kecelakaan yang terjadi akibat pengendara yang terpengaruh alkohol lebih sering terjadi pada pukul 20:00 malam. Apakah Anda setuju dengan asumsi saya? Jika iya, jelaskan alasannya. Jika tidak, jelaskan alasannya. Anda perlu menggunakan `stackplot` untuk menjawab pertanyaan ini.
 
-6. Berdasarkan jumlah laporan kecelakaan dari tahun ke tahun pada dataset ini, tahun 2011 adalah tahun di mana jumlah laporan kecelakaan tercatat paling banyak. Apakah Anda setuju dengan hal ini? Gunakan plot yang sesuai untuk mendukung jawaban Anda.
+6. **(poin 10)** Berdasarkan jumlah laporan kecelakaan dari tahun ke tahun pada dataset ini, tahun 2011 adalah tahun di mana jumlah laporan kecelakaan tercatat paling banyak. Apakah Anda setuju dengan hal ini? Gunakan plot yang sesuai untuk mendukung jawaban Anda.
 
 ## Catatan Penting:
 Upload Text File yang berisi jawaban Query dan file ipynb ini ke dalam satu buah repository di github. Lalu kirim linknya ke email ridhoaryo1991@gmail.com dan email operasional Purwadhika.
